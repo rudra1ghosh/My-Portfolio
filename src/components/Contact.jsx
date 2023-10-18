@@ -34,15 +34,15 @@ const Contact = () => {
     emailjs
       .send(
         'service_7k30zze',
-        'template_ae6jrsy',
+        'template_kal1vet',
         {
           from_name: form.name,
           to_name: "Rudranil Ghosh",
           from_email: form.email,
           to_email: "ghoshrudranil8@gmail.com",
-          message: form.message,
+          message: form.message + ' ' + form.email,
         },
-        '8lRKT0ghZ3HexgdYB'
+        '778uPkm8epmFvXl-7'
       )
       .then(
         () => {
