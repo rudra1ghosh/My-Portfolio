@@ -40,7 +40,7 @@ const Contact = () => {
           to_name: "Rudranil Ghosh",
           from_email: form.email,
           to_email: "ghoshrudranil8@gmail.com",
-          message: form.message + ' ' + form.email,
+          message: form.message + "Sent by: " + form.email,
         },
         '778uPkm8epmFvXl-7'
       )
